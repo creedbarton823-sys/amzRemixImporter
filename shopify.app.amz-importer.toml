@@ -2,7 +2,7 @@
 
 client_id = "2b795784beda6883dc2f8a4e489f449b"
 name = "amz-importer"
-application_url = "https://amz-remix-importer-8dgfkcd7v-creeds-projects-d8f52ee6.vercel.app/"
+application_url = "https://amz-remix-importer.vercel.app/"
 embedded = true
 
 [build]
@@ -16,4 +16,4 @@ api_version = "2025-10"
 scopes = "read_locations,read_publications,write_products,write_publications"
 
 [auth]
-redirect_urls = [ "https://amz-remix-importer-8dgfkcd7v-creeds-projects-d8f52ee6.vercel.app/auth/callback" ]
+redirect_urls = [ "https://amz-remix-importer.vercel.app/auth/callback" ]
