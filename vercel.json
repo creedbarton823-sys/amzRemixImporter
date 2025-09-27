@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "npx prisma generate && npm run build",
+  "outputDirectory": "build/client",
+  "rewrites": [
+    {
+      "source": "/((?!assets/).*)",
+      "destination": "/api/index.js"
+    }
+  ]
+}
